@@ -11,5 +11,26 @@ h1 {
     color: darkblue;
 }
 p {
-    padding: 10px;
+    padding: 0px;
+}
+aside {
+    width: 300px;
+    margin: 298px;
+    border: 296px;
+    padding: 250px;
+    background-color: darkblue;
+    color: white;
+}
+aside img {
+    width: 200px;
+    height: auto;
+}
+main img {
+    width: 200px;
+    height: auto;
+}
+footer {
+    margin-top: 20px;
+    border-top: 15px solid #000;
+    text-align: center;
 }
