@@ -1,0 +1,20 @@
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1 {
+    font-weight: 900;
+    font-style: italic;
+}
+h2 {
+    font-weight: 300;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
