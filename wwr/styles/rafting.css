@@ -1,3 +1,7 @@
+:root {
+    background-color: #ff801f;
+    border-color: #3c36e7;
+}
 a{
     text-decoration: none;
 }
@@ -5,13 +9,18 @@ body{
     font-family: "Lato", serif;
     font-weight: 400;
     font-style: normal;
+    background-color: #ff801f;
 }
 h1 {
     font-weight: 900;
     font-style: italic;
+    color: #ffffff;
+    background-color: #3c36e7;
 }
 h2 {
     font-weight: 300;
+    color: #ff801f;
+    background-color: #3c36e7;
 }
 .hero img {
     display: block;
