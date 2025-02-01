@@ -1,33 +1,56 @@
-:root {
-    background-color: #ff801f;
-    border-color: #3c36e7;
-}
-a{
-    text-decoration: none;
-}
-body{
-    font-family: "Lato", serif;
-    font-weight: 400;
-    font-style: normal;
-    background-color: #ff801f;
-}
-h1 {
-    font-weight: 900;
-    font-style: italic;
-    color: #ffffff;
-    background-color: #3c36e7;
-}
-h2 {
-    font-weight: 300;
-    color: #ff801f;
-    background-color: #3c36e7;
-}
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-.socialmedia img {
-    width: 150;
-    height: auto;
-}
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Riverton River Rafting</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/rafting.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/z-wwr-crossedoars.png" alt="Logo">
+            <h1>Riverton River Rafting</h1>
+            <nav>
+                <ul class="navigation-header">
+                    <li><a href="index.html">Home Page</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Plan a Trip</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="hero">
+                <article class="hero-article">
+                    <h2 class="hero-heading">Our purpose as Riverton River Rafting</h2>
+                    <p>Here at Riverton River Rafting, we are dedicated to bring joy to those who wish to take a raft ride down the Jordon River in the Salt Lake Valley.
+                    </p>
+                    <img src="images/rafting59_600.jpg" alt="Happy customers">
+                </article>
+            </div>
+            <section class="history">
+                <h2 class="history-heading">History</h2>
+                <p>Bladskljauhrtoiahgkljalskdrf alkduyfihgtke;allhdslkj</p>
+            </section>
+            <section class="adventure-grid">
+                <h2 class="adventure-heading">Adventure Awaits You!!!!!!!!!</h2>
+                <img src="images/rafting300.jpg" alt="an example of river rafting" class="adventure-image">
+                <img src="images/rafting42_600.jpg" alt="Another example" class="adventure-image">
+                <img src="images/rafting53_600.jpg" alt="A third example." class="adventure-image">
+                <img src="images/rafting26_600.jpg" alt="A fourth example." class="adventure-image">
+                <img src="images/raft-rapid.jpg" alt="A fifth example." class="adventure-image">
+            </section>
+        </main>
+        <footer>
+            <p>©️2025 | Brandon Baggaley | Riverton, UT</p>
+            <nav class="socialmedia">
+                <a href="https://facebook.com"><img src="images/2021_Facebook_icon.svg.png" alt="Facebook logo"></a>
+                <a href="https://x.com"><img src="images/twitter-now-x-logo.png.jpg" alt="X logo"></a>
+                <a href="https://instagram.com"><img src="images/instagram-logo.jpg" alt="instagram logo"></a>
+            </nav>
+        </footer>
+    </body>
+</html>
