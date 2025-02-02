@@ -83,9 +83,12 @@ h2 {
     width: 400px;
     height: auto;
 }
+.socialmedia {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 .socialmedia img {
-    display: inline;
-    flex-direction: row;
+    display: block;
     margin: 10px;
     width: 150px;
     height: auto;
