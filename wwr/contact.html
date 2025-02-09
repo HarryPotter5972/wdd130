@@ -50,21 +50,33 @@
                 </section>
             </div>
             <form class="form">
-                <fieldset class="user-contact-info">
+                <fieldset>
                     <legend>Contact Info:</legend>
                     <label for="full-name">Full Name:</label>
                     <input type="text" id="full-name" name="full-name">
                     <label for="email">Email:</label>
                     <input type="text" id="email" name="email">
-                    <label for="purpose">Message Purpose:</label>
-                    <input type="text" id="purpose" name="purpose">
+                </fieldset>
+                <fieldset>
+                    <legend>Purpose:</legend>
+                    <input type="radio" id="general-inquiry" name="purpose" value="generalinquiry">
+                    <label for="general-inquiry">General Inquiry</label>
+                    <input type="radio" id="reservation-question" name="purpose" value="seservation">
+                    <label for="reservation-question">Reservation Question</label>
+                    <input type="radio" id="website-suggestion" name="purpose" value="suggestion">
+                    <label for="website-suggestion">Website Suggestion</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Newsletter Subscription:</legend>
+                    <label for="subscription">Yes! Please subscribe me to the monthly newsletter!</label>
+                    <input type="checkbox" id="subscription" name="subscription" value="subscription">
                 </fieldset>
                 <fieldset class="message">
                     <legend>Message:</legend>
                     <label for="messageinput">Enter message here:</label>
                     <input type="text" id="messageinput" name="messageinput">
                 </fieldset>
-                <button type="submit">Submit</button>
+                <button type="submit" class="submission">Send Message</button>
             </form>
         </main>
         <footer>
@@ -75,7 +87,6 @@
                 <a href="https://instagram.com"><img src="images/instagram-logo.jpg" alt="instagram logo"></a>
             </nav>
             <nav class="wireframe">
-            </nav>
                 <a href="https://app.moqups.com/lbkeU2O8hElatqukcUbRYKj3mn7ppOvC/view/page/ad64222d5">Link to wireframe.</a>
             </nav>
         </footer>
