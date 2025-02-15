@@ -78,11 +78,15 @@ h2 {
 }
 .hero-article {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .hero-heading {
     grid-column-start: 1;
-    grid-column-end:3
+    grid-column-end:4;
+}
+.hero-paragraph {
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 .hero img {
     display: block;
@@ -149,4 +153,23 @@ iframe {
 .submission {
     grid-column-start: 1;
     grid-column-end: 4;
+}
+.dragon {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.hero-h1heading-andimage {
+    position: relative;
+    text-align: center;
+}
+.hero-heading-image {
+    width: 100%;
+    height: auto;
+    z-index: 0;
+}
+.hero-heading-and-image-h2 {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
