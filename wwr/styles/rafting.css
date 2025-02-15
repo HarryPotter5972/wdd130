@@ -173,3 +173,31 @@ iframe {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.trips {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end:5;
+}
+.trips-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.trips-heading {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.wireframe {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.table {
+    background-color: #3c36e7;
+    color: white;
+    border: 2px solid
+}
+th, td {
+    border: 1px solid;
+}
